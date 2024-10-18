@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.NavLink{
+     padding: 15px 20px;
+     background-color: rgba(46, 46, 46, 0.171);
+     border-radius: 5px;
+     transition: all ease-in 0.3s;
+}
+
+.NavLink:hover{
+     background-color: green;
+     color: white;
+}

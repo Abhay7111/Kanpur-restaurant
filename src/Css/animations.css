@@ -1,0 +1,16 @@
+::-webkit-scrollbar{
+     display: none;
+}
+
+.auto-slider{
+     animation: Autoslider 12s infinite linear;
+     top: 0%;
+}
+@keyframes Autoslider {
+     0%,20%,75%, 100%{
+          top: 0%;
+     }
+     25%, 70%{
+          top: -100%;
+     }
+}
