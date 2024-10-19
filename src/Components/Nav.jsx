@@ -42,7 +42,7 @@ function Nav() {
             <NavLink onClick={()=>setOpennotification(false)} to={'Table Reservation'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>Table Reservation</NavLink>
             <NavLink onClick={()=>setOpennotification(false)} to={'About Us'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>About Us</NavLink>
             <NavLink onClick={()=>setOpennotification(false)} to={'Contact Us'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>Contact Us</NavLink>
-            <NavLink onClick={()=>setOpennotification(false)} to={'My Acount'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>My Acount</NavLink>
+            <NavLink onClick={()=>setOpennotification(false)} to={'My Acount'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>Our Team</NavLink>
             <NavLink onClick={()=>setOpennotification(false)} to={'More'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>More</NavLink>
           </ul>
         </div>
@@ -56,8 +56,8 @@ function Nav() {
         <NavLink to={''} className={'NavLink'} >Online orders</NavLink>
         <NavLink to={''} className={'NavLink'} >Table Reservation</NavLink>
         <NavLink to={'about'} className={'NavLink'} >About Us</NavLink>
-        <NavLink to={''} className={'NavLink'} >Contact Us</NavLink>
-        <NavLink to={''} className={'NavLink'} >My Acount</NavLink>
+        <NavLink to={'contact us'} className={'NavLink'} >Contact Us</NavLink>
+        <a href={'/#ourteam'} className={'NavLink'} >Our team</a>
         <NavLink to={''} className={'NavLink'} >More</NavLink>
       </ul>
       <p className='flex items-center justify-center gap-2'><i class="ri-shopping-cart-2-line text-5xl text-zinc-400 cursor-pointer hover:text-blue-500/50 transition-all">0</i> </p>

@@ -11,6 +11,7 @@ import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { NavLink } from 'react-router-dom';
 import Aboutmin from '../Components/Aboutmin';
+import Team from './Team';
 function Top() {
   return (
     <div className=''>
@@ -241,6 +242,9 @@ function Top() {
           </div>
       </div>
       <Aboutmin/>
+      <div className='bg-white w-full'>
+          <Team/>
+      </div>
     </div>
   )
 }
