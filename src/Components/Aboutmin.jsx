@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function Aboutmin() {
   return (
-    <div className='w-full min-h-screen overflow-hidden bg-transparent flex items-center justify-center relative'>
+    <div id='about' className='w-full min-h-screen overflow-hidden bg-transparent flex items-center justify-center relative'>
           <img src="https://cdn.pixabay.com/photo/2023/06/20/10/05/tacos-8076612_1280.jpg" alt="bgimg" className='fixed top-0 left-0 w-full h-full scale-100 z-[-5] object-cover' />
           <div className='w-full min-h-screen py-8 bg-zinc-950/60 flex items-center justify-center'>
                <div className='py-10 px-3 bg-white w-[90%] sm:w-[40%] rounded-2xl flex flex-col items-center gap-5'>
