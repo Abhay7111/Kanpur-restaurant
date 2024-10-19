@@ -222,6 +222,23 @@ function Top() {
           <p className='text-sm flex flex-col text-white'><span className='text-xl font-semibold'>Order on the Go</span> From the Website</p>
         </div>
       </div>
+          <h1 className='text-center text-2xl pb-5 pt-16'>Order By Categories</h1>
+      <div className='h-[75vh] w-full flex flex-col gap-5 items-center justify-center'>
+          <div className='flex items-center justify-center border rounded-lg border-zinc-500 h-96'>
+               <div className='border-r border-zinc-500 w-80 h-full flex flex-col items-center justify-center gap-5'>
+                    <img className='h-[70%]' src="https://static.wixstatic.com/media/5f9826_8470ef89a7db4145a950db1dbdc66548~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1.png" alt="Img no." />
+                    <NavLink to={'order'} className={'px-3 py-1.5 rounded-full bg-blue-500 hover:bg-white border-2 border-blue-500 hover:text-blue-500 font-medium transition-all duration-500 text-white'}>Starters</NavLink>
+               </div>
+               <div className='border-r border-zinc-500 w-80 h-full flex flex-col items-center justify-center gap-5'>
+                    <img className='h-[70%]' src="https://static.wixstatic.com/media/5f9826_c8a8d4f37fbd441dabf300bafa91c1b3~mv2.png/v1/fill/w_293,h_293,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3.png" alt="Img no." />
+                    <NavLink to={'order'} className={'px-3 py-1.5 rounded-full bg-blue-500 hover:bg-white border-2 border-blue-500 hover:text-blue-500 font-medium transition-all duration-500 text-white'}>Main Course</NavLink>
+               </div>
+               <div className='w-80 h-full flex flex-col items-center justify-center gap-5'>
+                    <img className='h-[70%]' src="https://static.wixstatic.com/media/5f9826_53a8525fcaa34ad7846fa6c993743677~mv2.png/v1/fill/w_244,h_244,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2.png" alt="Img no." />
+                    <NavLink to={'order'} className={'px-3 py-1.5 rounded-full bg-blue-500 hover:bg-white border-2 border-blue-500 hover:text-blue-500 font-medium transition-all duration-500 text-white'}>Beverages</NavLink>
+               </div>
+          </div>
+      </div>
     </div>
   )
 }
