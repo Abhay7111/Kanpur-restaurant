@@ -33,8 +33,8 @@ function Nav() {
       </div>
       </div>
         <i onClick={()=>setOpennotification(true)} className={` ${opennotification ? '' : ''} text-white text-3xl ri-menu-5-line cursor-pointer sm:hidden block`}></i>
-      <div className={` ${opennotification ? 'w-[100vw]' : 'w-0'} z-50 sm:hidden transition-all duration-700 bg-black/40 fixed top-0 right-0  h-screen flex`}>
-      <i onClick={()=>setOpennotification(false)} className="ri-close-fill text-4xl text-white font-medium"></i>
+      <div className={` ${opennotification ? 'w-[100vw]' : 'w-0'} z-50 sm:hidden transition-all duration-700 bg-black/40 fixed top-0 right-0  h-screen flex items-start justify-end`}>
+        <i onClick={()=>setOpennotification(false)} className="ri-close-fill text-4xl text-white font-medium p-2"></i>
       </div>
     </div>
     <div className='hidden sm:block'>  
