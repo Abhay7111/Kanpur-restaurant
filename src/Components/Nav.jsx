@@ -9,7 +9,7 @@ function Nav() {
   
   return (
   <div className='flex flex-col items-center justify-center w-full z-50'>
-    <div className='w-full bg-green-500 h-14 flex items-center justify-between px-5'>
+    <div className='w-full bg-blue-500 h-14 flex items-center justify-between px-5'>
       <div className='flex  items-center justify-center gap-3'>
         <a href="#" className='text-white '>About</a>
         <a href="#" className='text-white '>Customer support</a>
@@ -29,9 +29,9 @@ function Nav() {
         </div>
       </div>
     </div>
-    <div className='flex items-center justify-between gap-10'>
+    <div className='flex items-center justify-between gap-10 py-5'>
       <img src="https://static.wixstatic.com/media/5f9826_c4ac955f26474d21b36483761974f0b0~mv2.png/v1/fill/w_88,h_88,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Since%202023%20(1).png" alt="Logo" />
-      <ul className='flex items-center gap-1 NavLinkUl'>
+      <ul className='flex items-center gap-[1px] NavLinkUl'>
         <NavLink to={'/'} className={'NavLink'} >Home</NavLink>
         <NavLink to={''} className={'NavLink'} >Online orders</NavLink>
         <NavLink to={''} className={'NavLink'} >Table Reservation</NavLink>
@@ -40,7 +40,7 @@ function Nav() {
         <NavLink to={''} className={'NavLink'} >My Acount</NavLink>
         <NavLink to={''} className={'NavLink'} >More</NavLink>
       </ul>
-      <p className='flex items-center justify-center gap-2'><i class="ri-shopping-cart-2-line text-5xl text-zinc-400 cursor-pointer hover:text-zinc-500 transition-all">0</i> </p>
+      <p className='flex items-center justify-center gap-2'><i class="ri-shopping-cart-2-line text-5xl text-zinc-400 cursor-pointer hover:text-blue-500/50 transition-all">0</i> </p>
     </div>
   </div>
   )
