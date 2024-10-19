@@ -10,9 +10,10 @@ import 'swiper/css/pagination';
 // import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
 import { NavLink } from 'react-router-dom';
+import Aboutmin from '../Components/Aboutmin';
 function Top() {
   return (
-    <div>
+    <div className=''>
      <Swiper
         spaceBetween={30}
         autoplay={{
@@ -23,7 +24,7 @@ function Top() {
           clickable: true,
         }}
         modules={[Autoplay, Pagination]}
-        className=" "
+        className=" bg-white"
       >
         <SwiperSlide>
           <div className=''>
@@ -64,7 +65,7 @@ function Top() {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className='py-10 w-full px-5 hidden sm:block '>
+      <div className='py-10 w-full px-5 hidden sm:block bg-white '>
           <h2 className='text-4xl w-full text-center font-bold pt-5 pb-10'>Choose from a Wide Range of Delicious Foods</h2>
           <div className='p-5 cursor-pointer'>
           <Swiper
@@ -134,7 +135,7 @@ function Top() {
       </Swiper>
           </div>
       </div>
-      <div className='py-10 w-full sm:hidden '>
+      <div className='py-10 w-full sm:hidden bg-white'>
           <h2 className='text-4xl w-full text-center font-medium ubuntu-medium'>Choose from a Wide Range of Delicious Foods</h2>
           <div className='py-5 px-1 cursor-pointer'>
           <Swiper
@@ -222,8 +223,8 @@ function Top() {
           <p className='text-sm flex flex-col text-white'><span className='text-xl font-semibold'>Order on the Go</span> From the Website</p>
         </div>
       </div>
-          <h1 className='text-center text-2xl pb-5 pt-16'>Order By Categories</h1>
-      <div className='h-[75vh] w-full flex flex-col gap-5 items-center justify-center'>
+          <h1 className='text-center text-2xl pb-5 pt-16 bg-white'>Order By Categories</h1>
+      <div className='h-[75vh] w-full flex flex-col gap-5 items-center justify-center bg-white'>
           <div className='flex items-center justify-center border rounded-lg border-zinc-500 h-96'>
                <div className='border-r border-zinc-500 w-80 h-full flex flex-col items-center justify-center gap-5'>
                     <img className='h-[70%]' src="https://static.wixstatic.com/media/5f9826_8470ef89a7db4145a950db1dbdc66548~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1.png" alt="Img no." />
@@ -239,6 +240,7 @@ function Top() {
                </div>
           </div>
       </div>
+      <Aboutmin/>
     </div>
   )
 }

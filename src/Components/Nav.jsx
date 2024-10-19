@@ -8,7 +8,7 @@ function Nav() {
 
   
   return (
-  <div className='flex flex-col items-center justify-center w-full z-50'>
+  <div className='flex flex-col items-center justify-center w-full z-50 bg-white'>
     <div className='w-full bg-blue-500 h-14 flex items-center justify-between px-5'>
       <div className='flex  items-center justify-center gap-3'>
         <a href="#" className='text-white '>About</a>
