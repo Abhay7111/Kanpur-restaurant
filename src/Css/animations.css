@@ -14,3 +14,51 @@
           top: -100%;
      }
 }
+
+
+.hover-before::before{
+     content: "";
+     width: 100%;
+     height: 0%;
+     position: absolute;
+     top: 100%;
+     left: 0%;
+     z-index: -1;
+     transition: all ease 1s;
+     background-color: #3371d4;
+   }
+   
+   .hover-before:hover::before{
+     content: "";
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0%;
+     left: 0%;
+     z-index: -1;
+     transition: all ease 0.2s;
+   }
+
+   @keyframes rocket-animation {
+     0% {
+       transform: translateY(0);
+     }
+     50% {
+       transform: translateY(-50px); /* Increased the upward movement for a more dramatic effect */
+     }
+     100% {
+       transform: translateY(0);
+     }
+   }
+   
+   .rocket-animation {
+     animation: rocket-animation 1.5s ease-in-out infinite; /* Slowed down the animation for a smoother effect */
+     width: 50%; /* Decreased the image size for screens wider than 600px */
+     height: auto; /* Maintain aspect ratio */
+   }
+   
+   @media (min-width: 600px) {
+     .rocket-animation {
+       width: 25%; /* Slightly increased the image size for larger screens */
+     }
+   }

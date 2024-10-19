@@ -33,8 +33,19 @@ function Nav() {
       </div>
       </div>
         <i onClick={()=>setOpennotification(true)} className={` ${opennotification ? '' : ''} text-white text-3xl ri-menu-5-line cursor-pointer sm:hidden block`}></i>
-      <div className={` ${opennotification ? 'w-[100vw]' : 'w-0'} z-50 sm:hidden transition-all duration-700 bg-black/40 fixed top-0 right-0  h-screen flex items-start justify-end`}>
-        <i onClick={()=>setOpennotification(false)} className="ri-close-fill text-4xl text-white font-medium p-2"></i>
+      <div className={` ${opennotification ? 'w-[100vw] px-3' : 'w-0'} z-50 sm:hidden transition-all duration-700 bg-white fixed top-0 right-0  h-screen flex flex-col items-end justify-start overflow-hidden`}>
+        <i onClick={()=>setOpennotification(false)} className="ri-close-fill text-4xl text-zinc-500 hover:text-zinc-800 transition-all duration-500 font-medium mr-1.5 mt-2 rounded-full cursor-pointer"></i>
+        <div className='w-full h-[85vh] mt-5 '>
+          <ul className='flex flex-col items-start justify-center py-4 px-3 overflow-hidden'>
+            <NavLink onClick={()=>setOpennotification(false)} to={'/'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>Home</NavLink>
+            <NavLink onClick={()=>setOpennotification(false)} to={'Online orders'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>Online orders</NavLink>
+            <NavLink onClick={()=>setOpennotification(false)} to={'Table Reservation'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>Table Reservation</NavLink>
+            <NavLink onClick={()=>setOpennotification(false)} to={'About Us'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>About Us</NavLink>
+            <NavLink onClick={()=>setOpennotification(false)} to={'Contact Us'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>Contact Us</NavLink>
+            <NavLink onClick={()=>setOpennotification(false)} to={'My Acount'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>My Acount</NavLink>
+            <NavLink onClick={()=>setOpennotification(false)} to={'More'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>More</NavLink>
+          </ul>
+        </div>
       </div>
     </div>
     <div className='hidden sm:block'>  
