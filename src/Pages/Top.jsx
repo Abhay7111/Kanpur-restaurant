@@ -215,7 +215,7 @@ function Top() {
       </Swiper>
           </div>
       </div>
-      <div className='bg-blue-600 rounded-3xl sm:rounded-none w-[90vw] m-[5%] sm:m-0 sm:w-full py-16 sm:p-0 sm:h-40 flex flex-col sm:flex-row items-center justify-center gap-16 sm:gap-14'>
+      <div className='scale-0-5 bg-blue-600 rounded-3xl sm:rounded-none w-[90vw] m-[5%] sm:m-0 sm:w-full py-16 sm:p-0 sm:h-40 flex flex-col sm:flex-row items-center justify-center gap-16 sm:gap-14'>
         <div className='flex items-center gap-3'>
           <i className="ri-takeaway-fill text-5xl text-white"></i>
           <p className='text-sm flex flex-col text-white'><span className='text-xl font-semibold'>Fast Delivery</span> To Your Door</p>
@@ -234,7 +234,7 @@ function Top() {
         </div>
       </div>
           <h1 className='text-center text-2xl pb-5 pt-16 bg-white'>Order By Categories</h1>
-      <div className='sm:h-[75vh] w-full flex flex-col gap-5 items-center justify-center bg-white'>
+      <div className='scale-0-5 sm:h-[75vh] w-full flex flex-col gap-5 items-center justify-center bg-white'>
           <div className='flex flex-col sm:flex-row items-center justify-center border rounded-lg border-zinc-500 sm:h-96 my-10 sm:my-0'>
                <div className=' border-b sm:border-r border-zinc-500 w-80 h-full flex flex-col items-center justify-center gap-5 py-5 sm:py-0'>
                     <img className='h-[70%]' src="https://static.wixstatic.com/media/5f9826_8470ef89a7db4145a950db1dbdc66548~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1.png" alt="Img no." />
