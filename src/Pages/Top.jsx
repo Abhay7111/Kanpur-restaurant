@@ -47,7 +47,7 @@ function Top() {
                <div className='absolute z-10 top-0 right-0 w-full sm:w-1/2 h-full px-5 flex flex-col items-center justify-center bg-black/40 sm:bg-transparent'>
                     <h1 className=' text-wrap text-[9vw] md:text-6xl font-bold ubuntu-medium leading-tight my-10 text-center sm:text-end text-white sm:text-black '>Tastier & Healthier Foods, Now at your Doorstep.</h1>
                     <div className='w-full flex items-center justify-center sm:justify-end px-10'>
-                         <NavLink to={'order'} className={'px-7 py-2 bg-green-500 hover:bg-green-600 transition-all rounded-full text-white'}>Order</NavLink>
+                         <NavLink to={'foods'} className={'px-7 py-2 bg-green-500 hover:bg-green-600 transition-all rounded-full text-white'}>Order</NavLink>
                     </div>
                </div>
           </div>
@@ -58,7 +58,7 @@ function Top() {
                <div className='absolute z-10 top-0 left-0 w-full sm:w-1/2 h-full px-5 flex flex-col items-center justify-center bg-black/50 sm:bg-transparent'>
                     <h1 className=' text-wrap text-[9vw] md:text-6xl font-semibold ubuntu-medium leading-tight my-10 text-center sm:text-start text-white sm:text-black flex flex-col sm:gap-10'><span className='text-xl'>Easy, Fresh & Convenient</span> Order From Four Brother's Cafe <span className='text-4xl'>And Get it Delivered <br /> at your Doorstep.</span></h1>
                     <div className='w-full flex items-center justify-center sm:justify-start px-10'>
-                         <NavLink to={'order'} className={'px-7 py-2 bg-green-500 hover:bg-green-600 transition-all rounded-full text-white'}>Order</NavLink>
+                         <NavLink to={'foods'} className={'px-7 py-2 bg-green-500 hover:bg-green-600 transition-all rounded-full text-white'}>Order</NavLink>
                     </div>
                </div>
           </div>
@@ -69,7 +69,7 @@ function Top() {
                <div className='absolute z-10 top-0 right-0 w-full sm:w-1/2 h-full px-5 flex flex-col items-center justify-center bg-black/40 sm:bg-transparent'>
                     <h1 className=' text-wrap text-[9vw] md:text-6xl font-semibold ubuntu-medium leading-tight my-10 text-center sm:text-end text-white'>Try Four Brothers Cafe Veg Thali, now more affordable !!</h1>
                     <div className='w-full flex items-center justify-center sm:justify-end px-10'>
-                         <NavLink to={'order'} className={'px-7 py-2 bg-green-500 hover:bg-green-600 transition-all rounded-full text-white'}>Order</NavLink>
+                         <NavLink to={'foods'} className={'px-7 py-2 bg-green-500 hover:bg-green-600 transition-all rounded-full text-white'}>Order</NavLink>
                     </div>
                </div>
           </div>
@@ -159,58 +159,58 @@ function Top() {
         className=""
       >
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food01} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500'/></NavLink>
+               <NavLink to={'foods'}><img src={Food01} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500'/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food02} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food02} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food03} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food03} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food04} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food04} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food05} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food05} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food06} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food06} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food07} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food07} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food03} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food03} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food05} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food05} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food01} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food01} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food06} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food06} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food02} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food02} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food07} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food07} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food01} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food01} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food03} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food03} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food05} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food05} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food01} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food01} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
           <SwiperSlide className=''>
-               <NavLink to={'order'}><img src={Food02} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
+               <NavLink to={'foods'}><img src={Food02} className='size-28 mx-10 my-5 rounded-lg object-cover hover:opacity-55 transition-all duration-500 '/></NavLink>
           </SwiperSlide>
       </Swiper>
           </div>
@@ -238,15 +238,15 @@ function Top() {
           <div className='flex flex-col sm:flex-row items-center justify-center border rounded-lg border-zinc-500 sm:h-96 my-10 sm:my-0'>
                <div className=' border-b sm:border-r border-zinc-500 w-80 h-full flex flex-col items-center justify-center gap-5 py-5 sm:py-0'>
                     <img className='h-[70%]' src="https://static.wixstatic.com/media/5f9826_8470ef89a7db4145a950db1dbdc66548~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1.png" alt="Img no." />
-                    <NavLink to={'order'} className={'px-3 py-1.5 rounded-full bg-blue-500 hover:bg-white border-2 border-blue-500 hover:text-blue-500 font-medium transition-all duration-500 text-white'}>Starters</NavLink>
+                    <NavLink to={'foods'} className={'px-3 py-1.5 rounded-full bg-blue-500 hover:bg-white border-2 border-blue-500 hover:text-blue-500 font-medium transition-all duration-500 text-white'}>Starters</NavLink>
                </div>
                <div className=' border-b sm:border-r border-zinc-500 w-80 h-full flex flex-col items-center justify-center gap-5 py-5 sm:py-0'>
                     <img className='h-[70%]' src="https://static.wixstatic.com/media/5f9826_c8a8d4f37fbd441dabf300bafa91c1b3~mv2.png/v1/fill/w_293,h_293,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3.png" alt="Img no." />
-                    <NavLink to={'order'} className={'px-3 py-1.5 rounded-full bg-blue-500 hover:bg-white border-2 border-blue-500 hover:text-blue-500 font-medium transition-all duration-500 text-white'}>Main Course</NavLink>
+                    <NavLink to={'foods'} className={'px-3 py-1.5 rounded-full bg-blue-500 hover:bg-white border-2 border-blue-500 hover:text-blue-500 font-medium transition-all duration-500 text-white'}>Main Course</NavLink>
                </div>
                <div className='w-80 h-full flex flex-col items-center justify-center gap-5 py-5 sm:py-0'>
                     <img className='h-[70%]' src="https://static.wixstatic.com/media/5f9826_53a8525fcaa34ad7846fa6c993743677~mv2.png/v1/fill/w_244,h_244,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2.png" alt="Img no." />
-                    <NavLink to={'order'} className={'px-3 py-1.5 rounded-full bg-blue-500 hover:bg-white border-2 border-blue-500 hover:text-blue-500 font-medium transition-all duration-500 text-white'}>Beverages</NavLink>
+                    <NavLink to={'foods'} className={'px-3 py-1.5 rounded-full bg-blue-500 hover:bg-white border-2 border-blue-500 hover:text-blue-500 font-medium transition-all duration-500 text-white'}>Beverages</NavLink>
                </div>
           </div>
       </div>

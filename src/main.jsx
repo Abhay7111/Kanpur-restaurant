@@ -7,6 +7,8 @@ import Local from './Pages/Local';
 import Top from './Pages/Top';
 import About from './Pages/About';
 import Error from './Components/Error';
+import Foods from './Pages/Foods';
+import Menu from './Pages/Menu';
 
 const routes = createBrowserRouter([
   {path:'/', element:<Local/>,
@@ -14,6 +16,8 @@ const routes = createBrowserRouter([
       {path:'', element:<Top/>,},
       {path:'about', element:<About/>,},
       {path:'contact us', element:<About/>,},
+      {path:'foods', element:<Foods/>,},
+      {path:'menu', element:<Menu/>,},
       {path:'*', element:<Error/>,},
     ]
   },
