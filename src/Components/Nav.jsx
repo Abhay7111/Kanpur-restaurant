@@ -41,7 +41,7 @@ function Nav() {
             <NavLink onClick={()=>setOpennotification(false)} to={'foods'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>All Foods</NavLink>
             <NavLink onClick={()=>setOpennotification(false)} to={'Table Reservation'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>Table Reservation</NavLink>
             <NavLink onClick={()=>setOpennotification(false)} to={'About Us'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>About Us</NavLink>
-            <NavLink onClick={()=>setOpennotification(false)} to={'Contact Us'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>Contact Us</NavLink>
+            <NavLink onClick={()=>setOpennotification(false)} to={'contact'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>contact</NavLink>
             <NavLink onClick={()=>setOpennotification(false)} to={'My Acount'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>Our Team</NavLink>
             <NavLink onClick={()=>setOpennotification(false)} to={'menu'} className={({ isActive }) => ` ${isActive ? 'bg-[#3B82F6] text-white' : 'hover-before'} py-3 w-full px-3 relative overflow-hidden z-10 hover:text-white transition-all duration-500 font-medium`}>Menu</NavLink>
           </ul>
@@ -56,7 +56,7 @@ function Nav() {
         <NavLink to={'foods'} className={'NavLink'} >All Foods</NavLink>
         <NavLink to={''} className={'NavLink'} >Table Reservation</NavLink>
         <NavLink to={'about'} className={'NavLink'} >About Us</NavLink>
-        <NavLink to={'contact us'} className={'NavLink'} >Contact Us</NavLink>
+        <NavLink to={'contact'} className={'NavLink'} >contact</NavLink>
         <a href={'/#ourteam'} className={'NavLink'} >Our team</a>
         <NavLink to={'menu'} className={'NavLink'} >Menu</NavLink>
       </ul>

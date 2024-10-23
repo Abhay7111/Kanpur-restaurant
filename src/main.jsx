@@ -9,6 +9,7 @@ import About from './Pages/About';
 import Error from './Components/Error';
 import Foods from './Pages/Foods';
 import Menu from './Pages/Menu';
+import Contact from './Pages/Contact';
 
 const routes = createBrowserRouter([
   {path:'/', element:<Local/>,
@@ -18,6 +19,7 @@ const routes = createBrowserRouter([
       {path:'contact us', element:<About/>,},
       {path:'foods', element:<Foods/>,},
       {path:'menu', element:<Menu/>,},
+      {path:'contact', element:<Contact/>,},
       {path:'*', element:<Error/>,},
     ]
   },
